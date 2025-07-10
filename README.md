@@ -41,7 +41,8 @@ bitrix-exchange-gui/
 ├── dist                
 |  └── main.exe         # Builded application for Win11
 ├── resources           # Resources for building an application                
-├── main.py             # Main GUI application
+├── main.py             # Main GUI application      
+├── main.spec           # Defines the PyInstaller build configuration
 ├── exchange_worker.py  # Worker thread for HTTP exchange
 ├── requirements.txt
 └── README.md
