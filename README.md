@@ -1,5 +1,7 @@
 # Bitrix Exchange GUI
 
+![Preview](.github/preview.jpg)
+
 A cross-platform PyQt5 desktop application for managing data exchange with 1C-Bitrix websites.  
 Supports file upload (XML/ZIP), catalog synchronization, progress tracking, and logging. Designed for developers or administrators working with 1C and Bitrix integrations.
 
