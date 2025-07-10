@@ -14,10 +14,6 @@ Supports file upload (XML/ZIP), catalog synchronization, progress tracking, and 
 - GUI built with PyQt5 and QtWidgets
 - Graceful interruption and error handling
 
-## Screenshots
-
-[Add screenshots of the main window here if available.]
-
 ## Requirements
 
 - Python 3.7+
