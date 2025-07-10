@@ -3,7 +3,7 @@ import sys
 import os
 import textwrap
 from datetime import datetime
-from PyQt5 import QtCore
+from PyQt5 import QtCore, QtGui
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QWidget, QLabel, QLineEdit, QPushButton,
     QProgressBar, QFileDialog, QMessageBox, QTabWidget, QVBoxLayout,
@@ -107,6 +107,7 @@ class MainWindow(QMainWindow):
         self.worker = None
         self.log_file = None
         self._init_ui()
+        self.setWindowIcon(QtGui.QIcon("resources/c_icon.ico"))
 
     def _init_ui(self):
         self.setWindowTitle("1С-Битрикс: Обмен с сайтом")
